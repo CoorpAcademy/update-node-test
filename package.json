@@ -20,5 +20,9 @@
   "homepage": "https://github.com/CoorpAcademy/update-node-test#readme",
   "devDependencies": {
     "@coorpacademy/update-node": "^2.0.0"
+  },
+  "engines": {
+    "node": "^8.15.1",
+    "npm": "^6.4.1"
   }
 }
