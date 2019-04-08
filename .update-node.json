@@ -1,0 +1,27 @@
+{
+  "repoSlug": "Coorpacademy/update-node-test",
+  "baseBranch": "master",
+  "packageManager": "npm",
+  "reviewers": [
+    "AdrieanKhisbe"
+  ],
+  "label": "Upgrades :outbox_tray:",
+  "auto-bump": true,
+  "node": {
+    "branch": "upgrade-node",
+    "nvmrc": true,
+    "dockerfile": false,
+    "travis": true,
+    "package": true
+  },
+  "dependencies": [
+    {
+      "name": "meta",
+      "message": "Update update-node",
+      "branch": "update-update-node",
+      "devDependencies": [
+        "@coorpacademy/update-node"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,8 @@
   "description": "Playground to test update-node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Yolo no test'",
+    "update": "update-node"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CoorpAcademy/update-node-test/issues"
   },
-  "homepage": "https://github.com/CoorpAcademy/update-node-test#readme"
+  "homepage": "https://github.com/CoorpAcademy/update-node-test#readme",
+  "devDependencies": {
+    "@coorpacademy/update-node": "^2.0.0"
+  }
 }

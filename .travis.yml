@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 8.15.1
+cache: yarn
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: npm run update -- --token $GH_TOKEN --auto
+    'on':
+      branch: master
