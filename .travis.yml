@@ -1,14 +1,10 @@
 language: node_js
 node_js:
   - 8.15.1
-git:
-  depth: 12
-script:
-  - git branch
-cache: yarn
+cache: npm
 deploy:
   - provider: script
     skip_cleanup: true
-    script: npm run update -- --token $GH_TOKEN --auto
+    script: git checkout master && npm run update -- --token $GH_TOKEN --auto
     'on':
       branch: master
