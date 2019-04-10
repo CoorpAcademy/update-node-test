@@ -12,7 +12,7 @@
     "url": "git+https://github.com/CoorpAcademy/update-node-test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adrien Becchis @AdrieanKhisbe",
   "license": "MIT",
   "engines": {
     "node": "^8.15.1",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/CoorpAcademy/update-node-test#readme",
   "devDependencies": {
-    "@coorpacademy/update-node": "^3.0.0-alpha.1"
+    "@coorpacademy/update-node": "^3.0.0-alpha.3"
   }
 }
