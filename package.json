@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/CoorpAcademy/update-node-test#readme",
   "devDependencies": {
-    "@coorpacademy/update-node": "^3.0.0-alpha.4"
+    "@coorpacademy/update-node": "^3.0.0-alpha.5"
   }
 }
