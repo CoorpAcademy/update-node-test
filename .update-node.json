@@ -6,7 +6,10 @@
     "AdrieanKhisbe"
   ],
   "label": "Upgrades :outbox_tray:",
-  "auto-bump": true,
+  "auto-bump": {
+    "merge-branch": "develop",
+    "sync-branch": "sync"
+  },
   "node": {
     "branch": "upgrade-node",
     "nvmrc": true,
