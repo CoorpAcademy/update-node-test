@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 8.15.1
+  - 11.15.0
 cache: npm
 deploy:
   - provider: script
