@@ -15,8 +15,8 @@
   "author": "Adrien Becchis @AdrieanKhisbe",
   "license": "MIT",
   "engines": {
-    "node": "^8.15.1",
-    "npm": "^6.4.1"
+    "node": "^10.1.0",
+    "npm": "^5.6.0"
   },
   "bugs": {
     "url": "https://github.com/CoorpAcademy/update-node-test/issues"
